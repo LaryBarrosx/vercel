@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap'); 
+
+*{
+    margin:0;
+    padding:0;
+}
+
+ body{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    background-color:#000;
+    color:#fff;
+
+ }
+
+ .destaque__de__cor{
+    color: #8a2be2;
+ }
+ .botao{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-around;
+   padding:34px;
+ }
+ .botao__imagem{
+  width: 32px;
+  height: 72px;
+ }
+
+ .botao__menu{
+   display: flex;
+   gap:45px;
+ }
+ 
+ .botao__menu__link{
+  font-weight: 400;
+  font-size: 28px;
+   color: #fff;
+   text-decoration: none;
+ }
+ .botao__menu__link:hover{
+   color: #8a2be2;
+   transition: 0.3s all;
+ }
+.introducao{
+    margin:8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding:5px;
+    gap:70px;
+    border-top: 0.5px solid #8a2be2;
+ }
+ .introducao__conteudo__titulo{
+   width: 610px;
+   display: flex;
+   font-size:45px;
+   font-family:"Bebas Neue", sans-serif;
+    }
+ .introducao__conteudo__texto{
+   font-size:23px;
+   font-family:"Schibsted Grotesk", sans-serif;
+ }
+ .introducao__links__link{
+     gap: 25px;
+    width: 10px;
+
+ }
+ .introducao__icone{
+  width:2.8rem;
+  padding: 9px;
+ }
+ .introducao__imagem{
+   border-radius: 40%;
+ }
+ .rodape{
+  padding: 24px;
+  color:#fff;
+  background-color:#272727;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 400;
+
+ }
+ 
+ @media (max-width:1500px){
+  .botao{
+      padding: 10%;
+  }
+  .botao__menu{
+      justify-content: center;
+  }
+    .introducao{
+      flex-direction: column-reverse;
+      padding: 5%;
+    }
+    .introducao__conteudo{
+      width: auto;
+    }
+}
+ 
